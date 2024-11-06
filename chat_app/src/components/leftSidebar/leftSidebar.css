@@ -1,0 +1,79 @@
+.ls{
+    background: #05332aeb;
+    color: aliceblue;
+    height: 75vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.ls-top{
+    
+    padding: 20px;
+}
+.ls-nav{
+    margin-bottom: 1rem;
+}
+.ls-nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ls-top .ls-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ls-top .ls-nav img{
+    width: 3rem;
+}
+
+.ls-search{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: #05332a2e;
+    padding: 10px;
+}
+.ls-search input{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    
+}
+.ls-list .friends img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ls-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 3rem;
+}
+.ls-list .friends{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.ls-list .friends .user-info p{
+ font-weight: 600;
+ font-size: 1.2rem;
+}
+.ls-list .friends .user-info span{
+    font-weight: 100;
+    color: #1ac4a2;
+}
+
+.friends:hover{
+    background: #0c9c7f;
+    padding: 3px;
+}
+.ls-list .friends .user-info span:hover{
+    color: aliceblue;
+}
